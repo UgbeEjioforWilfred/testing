@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="image/animals-best-hearing.webp" type="image/webp" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+      }
+
+      body {
+        background-color: #faeedc;
+        font-family: "Poppins", sans-serif;
+        margin: auto;
+      }
+
+      nav {
+        text-align: center;
+        position: sticky;
+        width: 100%;
+        padding: 2.5rem;
+        top: 0px;
+        background-color: #fae6c8;
+        border: rgb(206, 190, 190) solid 0.5px;
+      }
+      a {
+        text-decoration: none;
+        color: #ed4c4c;
+        font-size: 1.5rem;
+        padding: 1rem;
+        font-family: fantasy;
+        overflow: hidden;
+        display: inline;
+      }
+
+      a:hover {
+        color: black;
+      }
+      a:active {
+        color: green;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 1rem;
+      }
+
+      .footer {
+        background-color: tan;
+        text-align: center;
+        padding: 40px 20px;
+        margin-top: 50px;
+      }
+
+      .footer h3 {
+        margin-bottom: 10px;
+        font-size: 1rem;
+      }
+
+      .footer p {
+        max-width: 700px;
+        margin: 10px auto;
+        line-height: 1.6;
+      }
+
+      .copyright {
+        margin-top: 20px;
+        font-size: 0.9rem;
+      }
+
+      .box {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        gap: 2rem;
+        width: 90%;
+        margin: auto;
+      }
+
+      .my-name {
+        flex: 1;
+      }
+
+      .my-name p {
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .boss img {
+        width: 22rem;
+        border-radius: 10px;
+      }
+
+      .puppy {
+        background-image: url("Chow\ chow.webp");
+        background-size: 13rem;
+      }
+      .image-line {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-bottom: 15px;
+      }
+
+      .image-line img {
+        width: 100%;
+        height: 200px;
+      }
+
+      .bio {
+        text-align: center;
+        margin: auto;
+      }
+
+      @media screen and (max-width: 768px) {
+        .box {
+          display: block;
+        }
+        .boss img {
+          width: 100%;
+        }
+      }
+
+      .my-name p {
+        width: 100%;
+        margin: auto;
+        padding: 0.5rem;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="Dogstory.html">Home |</a>
+      <a href="breeds.html">Photo Gallery |</a>
+      <a href="funfact.html">Fun Facts |</a>
+      <a href="careguide.html">Care Guide |</a>
+      <a href="about.html">About </a>
+    </nav>
+
+    <h1>About</h1>
+
+    <div class="box">
+      <div class="boss">
+        <img src="boss.jpeg" alt="Boss" />
+      </div>
+
+      <div class="my-name">
+        <p>Hi, I'm Ugbe Ejiofor Wilfred.</p>
+
+        <p>
+          Dogs have always held a special place in my heart because of the
+          unconditional love, loyalty, and joy they bring into people's lives.
+        </p>
+
+        <p>
+          They are more than just pets, they are trusted companions who offer
+          comfort, protection, and friendship without expecting anything in
+          return.Their ability to remain faithful through every season of life
+          is one of the many reasons I admire them so deeply.
+        </p>
+
+        <p>
+          This website was inspired by my passion for dogs and my desire to
+          share that appreciation with others. Through this project, I wanted to
+          showcase not only the beauty and uniqueness of different dog breeds
+          but also create something meaningful while improving my web
+          development skills.
+        </p>
+
+        <p>
+          Every image, layout, and section represents the effort I have put into
+          learning and applying what I know.
+        </p>
+
+        <p>
+          As an upcoming web developer, I understand that every project is an
+          opportunity to grow. I am still learning, making mistakes, solving
+          problems, and discovering new techniques every day. This project
+          reflects my creativity, dedication, and willingness to improve with
+          each line of code I write. Although I am at the beginning of my
+          journey, I am committed to becoming a skilled and professional
+          full-stack developer.
+        </p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <h3>Ugbe Ejiofor Wilfred</h3>
+
+      <p>
+        Dogs are more than pets—they are loyal companions, protectors, and
+        lifelong friends. <br />
+        Thank you for taking the time to learn about their amazing history and
+        qualities.
+      </p>
+      <address>
+        <br />
+        <p class="copyright">
+          &copy; 2026 Made with love for dog lovers.. Designed and created by
+          Ugbe Ejiofor Wilfred.
+        </p>
+      </address>
+    </footer>
+  </body>
+</html>
